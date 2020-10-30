@@ -7,7 +7,7 @@ export GO111MODULE=on
 
 ## Setup tools
 setup:
-	GO111MODULE=off	go get \
+	GO111MODULE=off go get \
 	github.com/Songmu/make2help/cmd/make2help
 
 ## Run clean & build
